@@ -8,3 +8,5 @@ for num in range(n,0,-1):
 
 result = int(binaryNum, 2)
 print(result % modulo)
+
+
