@@ -8,7 +8,7 @@ temp = 0
 result = 0
 while (stones != []):
     if (len(stones) <= 2):
-        if (stones[0] >= stones[-1]):
+        if (stones[0] > stones[-1]):
             temp = stones.pop(-1)
         else:
             temp = stones.pop(0)
@@ -24,7 +24,7 @@ while (stones != []):
             bob = 0
         continue
     if (alice):
-        if (stones[0] >= stones[-1]):
+        if (stones[0] > stones[-1]):
             temp = stones.pop(-1)
         else:
             temp = stones.pop(0)
@@ -43,6 +43,5 @@ while (stones != []):
         result -= total
         bob = 0
         alice = 1
-    print(total)
 
 print(result)
