@@ -1,0 +1,1 @@
+finding all possible combinations (permutations) - backtracking (DFS) - beautiful arrangement
